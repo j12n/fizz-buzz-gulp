@@ -1,0 +1,16 @@
+{
+  "name": "fizz-buzz-gulp",
+  "version": "0.0.1",
+  "description": "test fizz buzz with gulp",
+  "main": "src/fizz.js",
+  "scripts": {
+    "test": "NODE_ENV=test node --harmony `which gulp`"
+  },
+ "devDependencies": {
+    "gulp": "~3.5.0",
+    "gulp-mocha": "~0.2.0",
+    "chai": "~1.9.0"
+  },
+  "dependencies": {
+  }
+}
